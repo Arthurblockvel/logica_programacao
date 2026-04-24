@@ -13,6 +13,12 @@ idade =int (input("digite a sua idade"))
 # - >= maior ou igual 
 # - <= menor ou igual 
 # - ! não
+# o comando de decisão é o if
+# a sintaxe é :
+# if comparação :
+#  E os itens a serem executados devem estar em um bloco identado
+# if 20>30
+# print ("algo de errado nao esta certo")
 if idade >= 18 :
     print (" você é maior de idade!")
     if idade >=60:

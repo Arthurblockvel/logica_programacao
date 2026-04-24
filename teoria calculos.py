@@ -10,5 +10,7 @@ print(" a media das notas é ", media)
 
 if media >=7:
     print ("você foi aprovado")
+elif media >= 4:
+    print ("você está de recuperação")
 else:
     print (" você foi reprovado")
